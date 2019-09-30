@@ -5,33 +5,35 @@ namespace HelloWorld
 {
     class Program
     {
+        private static List<KeyValuePair<string, int>> people = new List<KeyValuePair<string, int>>();
         static void Main(string[] args)
         {
-            // string name;
-            // int age;
-            var myList = new List<string>();
+            string name;
+            int age;
 
-            for (int i = 0; i < 5; i++)
-                {
-                    Console.WriteLine("Please enter a number");
-                    Console.WriteLine(string.Join(",", myList));
-                    myList.Add(Console.ReadLine());
+            Console.WriteLine("Welcome to my first c# application. Feel free to try it out.");
+
+            while(true){
+                var input = Console.ReadLine();
+
+                if (input.Equals("exit", StringComparison.OrdinalIgnoreCase)){
+                    break;
+                } else if(input.Equals("help", StringComparison.OrdinalIgnoreCase)){
+                    Console.WriteLine("-> Usable commands: exit, help, add, update, remove, list");
                 }
+                else if(input.Equals("add", StringComparison.OrdinalIgnoreCase)){
+                    
+                    Console.WriteLine("-> Please enter your name: ");
+                    name = Console.ReadLine();
 
-            // Console.WriteLine("Enter your name: ");
-            // name = Console.ReadLine();
+                    Console.WriteLine("-> Please enter your age: ");
+                    age = Convert.ToInt32(Console.ReadLine());
 
-            // Console.WriteLine("Enter your age: ");
-            // age = Convert.ToInt32(Console.ReadLine());
-
-
-              
-            // if(age>=18){
-            //     Console.WriteLine("Hello, " + name + "!" + " Your age is " + age + ".");
-            // }else if (age<=18){
-            //     Console.WriteLine("Hello, " + name + "!" + " Your age is " + age + ". Your under aged!!!");
-            // }
-            // Console.ReadLine();
+                    Console.WriteLine("-> Your name and age are saved.");
+                }else{
+                    Console.WriteLine("-> '" + input + "'" + " is not a command. Type help for info.");
+                }
+            }
         }
     }
 }

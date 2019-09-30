@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP\\FirstProject\\FirstProject.csproj": {}
+    "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP.net\\FirstCsProject\\FirstProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP\\FirstProject\\FirstProject.csproj": {
+    "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP.net\\FirstCsProject\\FirstProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP\\FirstProject\\FirstProject.csproj",
+        "projectUniqueName": "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP.net\\FirstCsProject\\FirstProject.csproj",
         "projectName": "FirstProject",
-        "projectPath": "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP\\FirstProject\\FirstProject.csproj",
+        "projectPath": "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP.net\\FirstCsProject\\FirstProject.csproj",
         "packagesPath": "C:\\Users\\Dem_R\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP\\FirstProject\\obj\\",
+        "outputPath": "C:\\Users\\Dem_R\\Desktop\\School Coding\\ASP.net\\FirstCsProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
